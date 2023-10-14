@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*em HTML(ID), em cSS(#)
+   em HTML(class), em CSS(.)*/
+body {
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: antiquewhite;
+    font-style: normal;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(2, 126, 126);
+    color: antiquewhite;
+}
+
+h2 {
+    color: azure;
+    font-style: oblique;
+}
+
+p {
+    color: black;
+    font-size: 1.1em;
+    font-weight: linear;
+    font-style: italic;
+}
+
+.basico {
+    color: azure;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: beige;
+    font-weight: linear;
+}
+
+.avancado {
+    color: bisque;
+    font-weight: lighter;
+}
